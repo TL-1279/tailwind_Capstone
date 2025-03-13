@@ -1,0 +1,60 @@
+
+
+.global-container h1, .global-container h2,.global-container h3 {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700 ;
+    font-style: normal;
+    font-weight: bold;
+}
+.global-container h1{
+    font-size: 72px;
+    line-height: 72px;
+}
+
+.global-container h2{
+    font-size: 60px;
+    line-height: 60px;
+}
+.global-container h3{
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.sub-menu, .nav-item, .p1, .slide, .p2, .b1{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:600;
+    font-style: normal;
+}
+.sub-menu{
+    font-size: 15px;
+    line-height: 25px;
+}
+.nav-item{
+    font-size: 16px;
+    line-height: 27px;
+}
+.b1{
+    font-weight:700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.slide, .p2{
+    font-weight:400;
+    
+}
+.slide{
+    font-size: 18px;
+    line-height: 30px;
+}
+.p1{
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.p2{
+    font-size: 18px;
+    line-height: 28px;
+}

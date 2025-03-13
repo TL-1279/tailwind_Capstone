@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Web Hoàn Chỉnh</title>
+    <link rel="stylesheet" href="./src/output.css">
+
+
+
+</head>
+<body>
+    
+    <!-- Hiển thị theo hàng dọc -->
+    <!-- <div>
+        <iframe id="part1" src="./Capstone/index.html" width="100%" height="500px" onload="checkScroll()"></iframe>
+        <iframe id="part2" src="" width="100%" height="500px"></iframe>
+    </div> -->
+
+<!--     
+        Phần 1 -->
+        <div class="scroll-container">
+            <div class="section">
+                <iframe class="iframe-container" src="./Capstone/index.html"></iframe>
+            </div>
+
+        <!-- Phần 2 -->
+            <div class="section">
+                <iframe class="iframe-container" src="./ThucHanhtailwind/index.html"></iframe>
+            </div>
+        </div>
+
+            <script>
+                document.addEventListener("scroll", () => {
+                    let scrollPosition = window.scrollY;
+                    let windowHeight = window.innerHeight;
+                    
+                    //  Khi cuộn hết Part 1 thì tự động hiển thị Part 2
+                    if (scrollPosition > windowHeight * 0.8) {
+                        document.getElementById("part2").style.display = "block";
+                    }
+                });
+            </script>
+
+            
+
+</body>
+</html>
